@@ -1,0 +1,16 @@
+{
+  "name": "staticpagesusingexpress",
+  "version": "1.0.0",
+  "description": "healthPortalMock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Sandra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}

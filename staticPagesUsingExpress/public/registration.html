@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="http://localhost:3000/js/Registration.js"></script>
+    </head>
+<body>
+
+<h2>Register</h2>
+
+User: 
+<select name="user" id="useroptions" form="registrationform" onchange="userOptionsFunc()">
+        <option value="choose">Choose One</option>
+        <option value="patient">Patient</option>
+        <option value="doctor">Doctor</option>
+        <option value="hospital">Hospital</option>
+        <option value="insurance">Insurance</option>
+        <option value="pharmacy">Pharmacy</option>
+    </select>
+    <br><br>
+
+<form id="registrationform">
+
+  Name: <br><input type="text" id="test" name="name">
+  <br><br>
+  
+  <a href="http://localhost:3000/register.html">register</a>
+  <div id="addinformation"></div>
+
+</form>
+
+</body>
+</html>
