@@ -1,0 +1,52 @@
+( {
+	"name": {
+	  "first": "Alan",
+	  "last": "Turing"
+	},
+	"location": {
+	  "street": "Westcott",
+	  "house": "426",
+	  "city": "Syracuse",
+	  "state": "NY",
+	  "country": "USA",
+	  "code": "13210"
+	},
+	"entList": {
+	  "insurance": {
+		"count1": {
+		  "type": "AETNA"
+		},
+		"count2": {
+		  "type": "NY_STATE_INSURANCE"
+		},
+		"count3": {
+		  "type": "DENTAL"
+		}
+	  },
+	  "doctor": {
+		"doc1": "DOC1 ID",
+		"doc2": "DOC2 ID",
+		"doc3": "DOC3 ID"
+	  },
+	  "hospital": {
+		"hosp1": "HOSP1 ID"
+	  }
+	},
+	"contact": {
+	  "phone": {
+		"type": "cell",
+		"number": "111-222-3333"
+	  },
+	  "email": "alan.turing@gmail.com",
+	  "website": "new URL('www.websiteofTcentre.com')"
+	},
+	"service": [
+	  "MRI",
+	  "XRAY",
+	  "VACCINATION",
+	  "BLOOD_TEST",
+	  "URINE_TEST"
+	],
+	"description": "Alan Turing Testing Center is a mathematician who also in our case happens to be a patient, a doctor, a hospital etc."
+  })
+

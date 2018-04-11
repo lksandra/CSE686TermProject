@@ -1,0 +1,17 @@
+use healthDB
+db.pharmacyDB.insertOne( {
+               _id: pharmacyId("*Insert Firebase Generated Key during Registration*"),
+               name: { first: "Alan", last: "Turing" },
+	       location: { street: "Westcott", house:"426", city:"Syracuse", state:"NY", country:"USA", code:"13210" },
+               entList: {  insurance :{count1: {type:"AETNA"},
+			               count2: {type:"NY_STATE_INSURANCE"},
+                                       count3: {type:"DENTAL"}},
+	                   doctor :{doc1: "DOC1 ID",doc2: "DOC2 ID",doc3:"DOC3 ID"}
+                        }
+	       contact: { phone: { type: "cell", number: "111-222-3333" },
+			  email: "alan.turing@gmail.com"}},
+               website: new URL('www.websiteofPharmacy.com'),
+	       /Logo can be done, not tried it here/
+	       description:"Alan Turing pharmacy is a mathematician who also in our case happens to be a patient, a doctor, a hospital etc."
+            })
+
