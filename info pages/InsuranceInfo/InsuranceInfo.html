@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <script src="InsuranceInfo.js"> </script> 
+        <title>Insurance Company Info</title>
+        <style>
+             #bg{
+                width: 100%;
+                height: 70%;
+
+            }
+            #jaffa{
+                float: right;
+            }
+            #j{
+                float: left;
+            }
+            .k{
+                clear:left;
+                float: none;
+            }
+            a:visited{
+                color:rgba(99, 27, 27, 0.377);
+            }
+        </style>
+    </head>
+    <body>
+        <img id="bg" src="aetna.jpg" alt ="Aetna Picture">
+        <h2 id ="j">Aetna Insurance</h2> 
+        <div id="jaffa">
+        <h3>Address 
+        <h4> Aetna Inc.<br>
+             151 Farmington Avenue<br>
+             Hartford, CT 06156<br>
+             USA
+        </h4> 
+        <h4>
+            Ph: 3153153150
+        </h4>
+                             
+        </h3>
+                                        
+        </div>
+        <div class="k">
+            <a href="http://www.aetna.com" target="_blank">Aetna Website</a>
+        </div>  
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>
+          Insurance Policies  
+        </h2>
+        <div id="pd">
+                <select name="policy" id="ip" required="true" onchange="getPolicyDescription()" >
+                        <option value="Policy Name 1">policy name 1</option>
+                        <option value="Policy Name 2">policy name 2</option>
+                        <option value="Policy Name 3">policy name 3</option>
+                </select>
+                    
+        </div>
+   
+    </body>
+</html>
